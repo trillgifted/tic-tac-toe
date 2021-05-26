@@ -1,0 +1,64 @@
+table{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;  
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+  }
+
+td{
+    font-size: 150px;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.top{
+    border-top: none;
+}
+
+.bottom{
+    border-bottom: none;
+}
+
+.left{
+    border-left: none;
+}
+
+.right{
+    border-right: none;
+}
+
+
+button{
+    font-size: 30px;
+}
+
+.selectButton{
+    margin: 0 auto;
+    text-align: center;  
+}
+
+.winnerMenu{
+    margin: 0 auto;
+    text-align: center;
+    display:none;      
+}
