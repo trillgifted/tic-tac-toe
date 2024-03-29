@@ -15,7 +15,10 @@ const gameboardObj = new Gameboard();
 
 function updateBoard(posy,posx,playerChar){
     let k=0;
-    gameboardObj.gameboardArr[posy][posx]=playerChar;
+    if(gameboardObj.gameboardArr[posy][posx]==""){
+        gameboardObj.gameboardArr[posy][posx]=playerChar;    
+    }
+    
     
     gameboardObj.gameboardArr.forEach((rowArr,i)=>{
         
